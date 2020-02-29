@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00d157e-8cf8-4c85-ae63-6727574ef0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/engine.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/engine/types.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fetcher/Fetch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhenai/parser/citylist.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
     </list>
@@ -15,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -23,22 +29,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YQuRFri3k0PcvGu3mfn6xWmccF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\Go\src\crawZhenai" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build crawZhenai">
     <configuration name="go build crawZhenai" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="crawZhenai" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -47,9 +60,28 @@
       <package value="crawZhenai" />
       <method v="2" />
     </configuration>
+    <configuration name="go build crawZhenai/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="crawZhenai" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/test/test.go" />
+      <package value="crawZhenai/test" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build engine.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="crawZhenai" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/engine/engine.go" />
+      <package value="crawZhenai" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build crawZhenai" />
+        <item itemvalue="Go Build.go build engine.go" />
+        <item itemvalue="Go Build.go build crawZhenai/test" />
       </list>
     </recent_temporary>
   </component>
@@ -57,25 +89,53 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="312" key="GridCell.Tab.0.bottom" timestamp="1582898053431">
+    <state x="361" y="71" key="#Inspections" timestamp="1582908361512">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="312" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582898053431" />
-    <state width="1493" height="312" key="GridCell.Tab.0.center" timestamp="1582898053431">
+    <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1582908361512" />
+    <state x="477" y="47" key="#go_build_engine.go" timestamp="1582937632060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="312" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582898053431" />
-    <state width="1493" height="312" key="GridCell.Tab.0.left" timestamp="1582898053431">
+    <state x="477" y="47" key="#go_build_engine.go/0.0.1536.824@0.0.1536.824" timestamp="1582937632060" />
+    <state x="439" y="188" key="EditFileWatcherDialog" timestamp="1582906750198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="312" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582898053431" />
-    <state width="1493" height="312" key="GridCell.Tab.0.right" timestamp="1582898053431">
+    <state x="439" y="188" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1582906750198" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1582941141691">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="312" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582898053431" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1582889894551">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582941141691" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1582941141690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582889894551" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582941141690" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1582941141690">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582941141690" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1582941141691">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582941141691" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582940806368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582940806368" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582940806368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582940806368" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582940806367">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582940806367" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582940806368">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582940806368" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1582938321845">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582938321845" />
   </component>
 </project>

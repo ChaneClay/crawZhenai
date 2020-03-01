@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d00d157e-8cf8-4c85-ae63-6727574ef0fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/engine.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/engine/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fetcher/Fetch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zhenai/parser/citylist.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fetcher/fetch_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/profile.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/re.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhenai/parser/city.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhenai/parser/profile.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/engine/engine.go" beforeDir="false" afterPath="$PROJECT_DIR$/engine/engine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fetcher/Fetch.go" beforeDir="false" afterPath="$PROJECT_DIR$/fetcher/Fetch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zhenai/parser/citylist.go" beforeDir="false" afterPath="$PROJECT_DIR$/zhenai/parser/citylist.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +61,19 @@
       <package value="crawZhenai" />
       <method v="2" />
     </configuration>
+    <configuration name="go build crawZhenai/test (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="crawZhenai" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/test/re.go" />
+      <package value="crawZhenai/test" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build crawZhenai/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="crawZhenai" />
       <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
+      <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/test/test.go" />
       <package value="crawZhenai/test" />
       <method v="2" />
@@ -77,11 +87,24 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestFetch in crawZhenai/fetcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="crawZhenai" />
+      <working_directory value="$PROJECT_DIR$/fetcher" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="crawZhenai/fetcher" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestFetch$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build crawZhenai" />
-        <item itemvalue="Go Build.go build engine.go" />
+        <item itemvalue="Go Build.go build crawZhenai/test (1)" />
+        <item itemvalue="Go Test.TestFetch in crawZhenai/fetcher" />
         <item itemvalue="Go Build.go build crawZhenai/test" />
+        <item itemvalue="Go Build.go build engine.go" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +116,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1582908361512" />
+    <state x="740" y="93" key="#go_build_crawZhenai/test" timestamp="1582994085112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="740" y="93" key="#go_build_crawZhenai/test/0.0.1536.824@0.0.1536.824" timestamp="1582994085112" />
+    <state x="477" y="46" key="#go_build_crawZhenai/test_(1)" timestamp="1582994119189">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="46" key="#go_build_crawZhenai/test_(1)/0.0.1536.824@0.0.1536.824" timestamp="1582994119189" />
     <state x="477" y="47" key="#go_build_engine.go" timestamp="1582937632060">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -101,41 +132,49 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="439" y="188" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1582906750198" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1582941141691">
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1583024358000">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582941141691" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1582941141690">
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583024358000" />
+    <state width="1342" height="410" key="GridCell.Tab.0.bottom" timestamp="1583032247180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582941141690" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1582941141690">
+    <state width="1342" height="410" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583032247180" />
+    <state width="1342" height="410" key="GridCell.Tab.0.center" timestamp="1583032247180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582941141690" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1582941141691">
+    <state width="1342" height="410" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1583032247180" />
+    <state width="1342" height="410" key="GridCell.Tab.0.left" timestamp="1583032247180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582941141691" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1582940806368">
+    <state width="1342" height="410" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1583032247180" />
+    <state width="1342" height="410" key="GridCell.Tab.0.right" timestamp="1583032247180">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582940806368" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1582940806368">
+    <state width="1342" height="410" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1583032247180" />
+    <state width="1493" height="216" key="GridCell.Tab.1.bottom" timestamp="1583031288956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1582940806368" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1582940806367">
+    <state width="1493" height="216" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1583031288956" />
+    <state width="1493" height="216" key="GridCell.Tab.1.center" timestamp="1583031288956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1582940806367" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1582940806368">
+    <state width="1493" height="216" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1583031288956" />
+    <state width="1493" height="216" key="GridCell.Tab.1.left" timestamp="1583031288956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1582940806368" />
-    <state x="270" y="54" key="SettingsEditor" timestamp="1582938321845">
+    <state width="1493" height="216" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1583031288956" />
+    <state width="1493" height="216" key="GridCell.Tab.1.right" timestamp="1583031288956">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582938321845" />
+    <state width="1493" height="216" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1583031288956" />
+    <state x="270" y="54" key="SettingsEditor" timestamp="1583024450139">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="54" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583024450139" />
+    <state x="432" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1582993383964">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="432" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1582993383964" />
   </component>
 </project>

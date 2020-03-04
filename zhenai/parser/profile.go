@@ -14,12 +14,8 @@ func ParseProfile(contents []byte, name string) engine.ParseResult {
 	profile.Name = name
 	re := regexp.MustCompile(dataRe)
 	matches := re.FindAllSubmatch(contents, -1)
-	//fmt.Println(len(matches))
 	if matches != nil {
 		for i, n := range matches {
-			//fmt.Printf("%d   %s", i, string(n[1]))
-			//str := string(n[1])
-			//fmt.Printf("%d--%s\n", i, str)
 			data := string(n[1])
 			switch i {
 			case 0:
@@ -43,9 +39,7 @@ func ParseProfile(contents []byte, name string) engine.ParseResult {
 			default:
 				fmt.Printf("%s index: %d, data: %s\n", "No conditions are met  ", i, data)
 			}
-
 		}
-
 	} else {
 		fmt.Println("error occured...")
 	}

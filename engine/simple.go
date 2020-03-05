@@ -2,7 +2,6 @@ package engine
 
 import (
 	"crawZhenai/fetcher"
-	"fmt"
 	"log"
 )
 
@@ -34,7 +33,7 @@ func (e SimpleEngine) Run(seeds ...Request) {
 		for _, item := range parseResult.Items {
 			log.Printf("Got item %v", item)
 		}
-		fmt.Println("所有数据获取完毕！")
+
 	}
 
 }

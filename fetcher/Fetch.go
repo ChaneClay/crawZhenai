@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-var rateLimiter = time.Tick(1000 * time.Millisecond)
+var rateLimiter = time.Tick(500 * time.Millisecond)
 
 func Fetch(url string) ([]byte, error) {
 	<-rateLimiter

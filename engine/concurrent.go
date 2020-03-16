@@ -1,6 +1,7 @@
 package engine
 
 import (
+	"fmt"
 	"log"
 )
 
@@ -36,6 +37,8 @@ func (e *ConcurrentEngine) Run(seeds ...Request) {
 		result := <-out
 		for _, item := range result.Items {
 			log.Printf("Got item %d : %v", itemCount, item)
+			fmt.Println("获得数据。。。。。。")
+
 			itemCount++
 		}
 
